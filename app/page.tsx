@@ -127,13 +127,13 @@ const HeroSection = ({ onWaitlistClick }: { onWaitlistClick: () => void }) => {
   ];
 
   const screenshots = [
-    'HabitScreenshot1.png',
-    'HabitScreenshot2.png',
-    'HabitScreenshot3.png',
-    'HabitScreenshot4.png',
-    'HabitScreenshot5.png',
-    'HabitScreenshot6.png',
-    'HabitScreenshot7.png'
+    '/HabitScreenshot1.png',
+    '/HabitScreenshot2.png',
+    '/HabitScreenshot3.png',
+    '/HabitScreenshot4.png',
+    '/HabitScreenshot5.png',
+    '/HabitScreenshot6.png',
+    '/HabitScreenshot7.png'
   ];
 
   useEffect(() => {
