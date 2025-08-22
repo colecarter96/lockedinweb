@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Locked In Team" }],
   viewport: "width=device-width, initial-scale=1",
   icons: {
-    icon: '/LockedInAppLogoLock1.svg',
+    icon: 'LockedInAppLogoLock1.svg',
   },
 };
 
