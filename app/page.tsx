@@ -39,7 +39,7 @@ const Header = ({ onWaitlistClick }: { onWaitlistClick: () => void }) => {
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-red-700 rounded-xl flex items-center justify-center overflow-hidden">
               <Image
-                src="./LockedInAppLogoLock1.png"
+                src="LockedInAppLogoLock1.png"
                 alt="Locked In App Logo"
                 width={40}
                 height={40}
@@ -128,13 +128,13 @@ const HeroSection = ({ onWaitlistClick }: { onWaitlistClick: () => void }) => {
   ];
 
   const screenshots = [
-    './HabitScreenshot1.png',
-    './HabitScreenshot2.png',
-    './HabitScreenshot3.png',
-    './HabitScreenshot4.png',
-    './HabitScreenshot5.png',
-    './HabitScreenshot6.png',
-    './HabitScreenshot7.png'
+    'HabitScreenshot1.png',
+    'HabitScreenshot2.png',
+    'HabitScreenshot3.png',
+    'HabitScreenshot4.png',
+    'HabitScreenshot5.png',
+    'HabitScreenshot6.png',
+    'HabitScreenshot7.png'
   ];
 
   useEffect(() => {
@@ -178,7 +178,7 @@ const HeroSection = ({ onWaitlistClick }: { onWaitlistClick: () => void }) => {
           <div className="mb-8">
             <div className="w-24 h-24 mx-auto lg:mx-0 mb-6">
               <Image
-                src="./LockedInAppLogoLock1.png"
+                src="LockedInAppLogoLock1.png"
                 alt="Locked In App Logo"
                 width={96}
                 height={96}
