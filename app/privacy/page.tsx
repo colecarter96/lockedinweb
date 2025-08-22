@@ -33,7 +33,7 @@ export default function PrivacyPolicy() {
             </p>
             
             <p>
-              This Privacy Policy describes how Locked In ("we," "us," or "our") collects, 
+              This Privacy Policy describes how Locked In (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) collects, 
               uses, and shares your personal information when you use our mobile application 
               and related services.
             </p>
@@ -48,7 +48,7 @@ export default function PrivacyPolicy() {
             <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Changes to This Policy</h2>
             <p>
               We may update this Privacy Policy from time to time. We will notify you of any 
-              changes by posting the new Privacy Policy on this page and updating the "Last updated" 
+              changes by posting the new Privacy Policy on this page and updating the &ldquo;Last updated&rdquo; 
               date. We encourage you to review this Privacy Policy periodically.
             </p>
             

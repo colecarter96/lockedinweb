@@ -309,7 +309,7 @@ const ContactSection = () => {
               <h3 className="text-2xl font-semibold mb-4 text-black">Contact Information</h3>
               <p className="text-gray-600 mb-6">
                 Have questions about Locked In? Want to join our beta testing program? 
-                We'd love to hear from you.
+                We&apos;d love to hear from you.
               </p>
               
               <div className="space-y-4">
@@ -372,7 +372,7 @@ const ContactSection = () => {
                     <span className="text-white text-2xl">✓</span>
                   </div>
                   <h3 className="text-xl font-semibold text-black mb-2">Message Sent!</h3>
-                  <p className="text-gray-600">We'll get back to you soon.</p>
+                  <p className="text-gray-600">We&apos;ll get back to you soon.</p>
                 </div>
               )}
             </div>
@@ -506,8 +506,8 @@ const WaitlistModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => vo
             <div className="w-16 h-16 bg-green-500 rounded-full mx-auto mb-4 flex items-center justify-center">
               <span className="text-white text-2xl">✓</span>
             </div>
-            <h3 className="text-xl font-semibold text-black mb-2">You're on the list!</h3>
-            <p className="text-gray-600">We'll notify you as soon as Locked In is ready.</p>
+            <h3 className="text-xl font-semibold text-black mb-2">You&apos;re on the list!</h3>
+            <p className="text-gray-600">We&apos;ll notify you as soon as Locked In is ready.</p>
           </div>
         )}
       </div>
@@ -519,7 +519,7 @@ const WaitlistModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => vo
 const AdminPanel = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) => {
   const [activeTab, setActiveTab] = useState<'waitlist' | 'contacts'>('waitlist');
   const [waitlistEmails, setWaitlistEmails] = useState<string[]>([]);
-  const [contacts, setContacts] = useState<any[]>([]);
+  const [contacts, setContacts] = useState<{name: string; email: string; message: string; timestamp: string}[]>([]);
 
   useEffect(() => {
     if (isOpen) {
