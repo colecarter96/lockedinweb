@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Locked In Team" }],
   viewport: "width=device-width, initial-scale=1",
   icons: {
-    icon: 'https://imgur.com/CskALnj.png',
+    icon: 'https://i.imgur.com/tiijGIR.png',
   },
 };
 

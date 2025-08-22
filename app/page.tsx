@@ -39,7 +39,7 @@ const Header = ({ onWaitlistClick }: { onWaitlistClick: () => void }) => {
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-red-700 rounded-xl flex items-center justify-center overflow-hidden">
               <Image
-                src="https://imgur.com/CskALnj.png"
+                src="https://i.imgur.com/tiijGIR.png"
                 alt="Locked In App Logo"
                 width={40}
                 height={40}
@@ -128,13 +128,13 @@ const HeroSection = ({ onWaitlistClick }: { onWaitlistClick: () => void }) => {
   ];
 
   const screenshots = [
-    'https://imgur.com/jdrTQ4K.png',
-    'https://imgur.com/s3dsXuF.png',
-    'https://imgur.com/KTQ3RF6.png',
-    'https://imgur.com/RQVQmzH.png',
-    'https://imgur.com/jFHdEsa.png',
-    'https://imgur.com/TSGU7Qn.png',
-    'https://imgur.com/dC3dzKp.png'
+    'https://i.imgur.com/ZoAPjx8.png',
+    'https://i.imgur.com/ky8nikN.png',
+    'https://i.imgur.com/XoIzaPj.png',
+    'https://i.imgur.com/VAzCbMr.png',
+    'https://i.imgur.com/u9OaB6g.png',
+    'https://i.imgur.com/5ZACEqy.png',
+    'https://i.imgur.com/85ye5uF.png'
   ];
 
   useEffect(() => {
@@ -178,7 +178,7 @@ const HeroSection = ({ onWaitlistClick }: { onWaitlistClick: () => void }) => {
           <div className="mb-8">
             <div className="w-24 h-24 mx-auto lg:mx-0 mb-6">
               <Image
-                src="https://imgur.com/CskALnj.png"
+                src="https://i.imgur.com/tiijGIR.png"
                 alt="Locked In App Logo"
                 width={96}
                 height={96}
