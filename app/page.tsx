@@ -38,7 +38,7 @@ const Header = ({ onWaitlistClick }: { onWaitlistClick: () => void }) => {
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-red-700 rounded-xl flex items-center justify-center overflow-hidden">
-              <Image
+              <img
                 src="/LockedInAppLogoLock1.png"
                 alt="Locked In App Logo"
                 width={40}
@@ -177,13 +177,12 @@ const HeroSection = ({ onWaitlistClick }: { onWaitlistClick: () => void }) => {
         <div className="flex-1 text-center lg:text-left max-w-2xl order-2 lg:order-1">
           <div className="mb-8">
             <div className="w-24 h-24 mx-auto lg:mx-0 mb-6">
-              <Image
+              <img
                 src="/LockedInAppLogoLock1.png"
                 alt="Locked In App Logo"
                 width={96}
                 height={96}
                 className="w-full h-full object-contain rounded-2xl"
-                priority
               />
             </div>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-black mb-6 tracking-tight bg-gradient-to-r from-white via-gray-100 to-gray-300 bg-clip-text text-transparent">
@@ -227,13 +226,11 @@ const HeroSection = ({ onWaitlistClick }: { onWaitlistClick: () => void }) => {
               <div className="w-full h-full iphone-screen rounded-[2.5rem] overflow-hidden relative">
                 {/* Screenshot Content */}
                 <div className="w-full h-full relative">
-                  <Image
+                  <img
                     key={currentScreenshotIndex} // Force re-render for smooth transitions
                     src={screenshots[currentScreenshotIndex]}
                     alt={`Locked In App Screenshot ${currentScreenshotIndex + 1}`}
-                    fill
-                    className="object-cover rounded-[2rem] iphone-screenshot"
-                    priority={currentScreenshotIndex === 0}
+                    className="object-cover rounded-[2rem] iphone-screenshot w-full h-full"
                   />
                 </div>
                 
