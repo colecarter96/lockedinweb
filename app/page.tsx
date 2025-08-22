@@ -153,7 +153,7 @@ const HeroSection = ({ onWaitlistClick }: { onWaitlistClick: () => void }) => {
   }, [quotes.length, screenshots.length]);
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-black relative overflow-hidden pt-20">
+    <section className="min-h-screen flex items-center justify-center bg-black relative overflow-hidden pt-24 md:pt-28 lg:pt-20">
       {/* Background texture and effects */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,59,48,0.15),transparent_50%)]"></div>
@@ -196,8 +196,8 @@ const HeroSection = ({ onWaitlistClick }: { onWaitlistClick: () => void }) => {
           
           {/* Animated Quote */}
           <div className="h-20 md:h-24 mb-8">
-            <div className="relative">
-              <p className="text-lg md:text-xl lg:text-2xl text-gray-200 quote-animation font-medium">
+            <div className="relative w-full max-w-lg mx-auto lg:mx-0">
+              <p className="text-lg md:text-xl lg:text-2xl text-gray-200 quote-animation font-medium text-center lg:text-left">
                 {quotes[currentQuoteIndex]}
               </p>
               <div className="absolute -bottom-2 left-1/2 lg:left-0 transform lg:transform-none -translate-x-1/2 lg:translate-x-0 w-16 h-0.5 bg-gradient-to-r from-red-700 to-transparent lg:from-red-700 lg:to-transparent"></div>

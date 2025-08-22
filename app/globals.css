@@ -125,9 +125,7 @@ a {
   transform: scale(1);
 }
 
-.iphone-screenshot:hover {
-  transform: scale(1.02);
-}
+/* Removed hover effect for cleaner experience */
 
 /* Hover effects */
 .hover-scale {
