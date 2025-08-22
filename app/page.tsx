@@ -144,7 +144,7 @@ const HeroSection = ({ onWaitlistClick }: { onWaitlistClick: () => void }) => {
     
     const screenshotInterval = setInterval(() => {
       setCurrentScreenshotIndex((prev) => (prev + 1) % screenshots.length);
-    }, 3500); // Slightly longer to account for 7 screenshots
+    }, 5000); // Longer interval for smoother, more relaxed transitions
     
     return () => {
       clearInterval(quoteInterval);
@@ -176,7 +176,7 @@ const HeroSection = ({ onWaitlistClick }: { onWaitlistClick: () => void }) => {
         {/* Left side - Text content */}
         <div className="flex-1 text-center lg:text-left max-w-2xl order-2 lg:order-1">
           <div className="mb-8">
-            <div className="w-24 h-24 mx-auto lg:mx-0 mb-6">
+            <div className="hidden md:block w-24 h-24 mx-auto lg:mx-0 mb-6">
               <Image
                 src="https://i.imgur.com/tiijGIR.png"
                 alt="Locked In App Logo"
@@ -230,7 +230,7 @@ const HeroSection = ({ onWaitlistClick }: { onWaitlistClick: () => void }) => {
                     key={currentScreenshotIndex} // Force re-render for smooth transitions
                     src={screenshots[currentScreenshotIndex]}
                     alt={`Locked In App Screenshot ${currentScreenshotIndex + 1}`}
-                    className="object-cover rounded-[2rem] iphone-screenshot w-full h-full"
+                    className="object-cover rounded-[2rem] iphone-screenshot active w-full h-full"
                     width={2868}
                     height={1320}
                   />
